@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(images/mountains-morning-snow-rock-mountain-landscape\ \(1\).png);
+    background-repeat: no-repeat;
+}
+
+.button {
+    background-color: white;
+    border: 1px solid rgb(255, 254, 254);
+    border-radius: 50px;
+    width: 100px;
+    width: Fixed (120px)px;
+    height: Fixed (40px)px;
+    top: 30px;
+    left: 1288px;
+    padding: 5px 26px 5px 26px;
+    gap: 10px;
+    color: white;
+
+
+}
+
+.navbar {
+    background-color: rgb(228, 223, 217);
+    color: white !important;
+}
+
+.button:hover {
+    background-color: rgb(252, 250, 250);
+    color: rgb(17, 13, 13);
+}
+
+.nav-item {
+    margin-right: 20px;
+    color: white;
+}
+
+.white {
+    color: white !important;
+
+}
+
+h1.heading {
+    color: white;
+    width: 670px;
+
+    top: 380px;
+    left: 385px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 90px;
+    text-align: center;
+    font-weight: bold;
+
+
+}
+
+p.para {
+    width: 670px;
+    height: 42px;
+    top: 380px;
+    left: 385px;
+    gap: 0px;
+    opacity: 0px;
+    color: white;
+}
+
+.box-one {
+
+    margin-left: 200px;
+
+}
+
+.button-two {
+    margin-top: 20px;
+    background-color: white;
+    border: 1px solid rgb(255, 254, 254);
+    border-radius: 50px;
+    width: 150px;
+    height: Fixed (40px)px;
+    top: 30px;
+    left: 1288px;
+    padding: 5px 26px 5px 26px;
+    gap: 10px;
+    color: white
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .box-one {
+        /* background-color: aqua;
+        height: 500px;
+        width: 700px; */
+        margin-left: -100px;
+
+    }
+
+    h1.heading {
+        width: 570px;
+        text-align: center;
+    }
+
+    p.para {
+        width: 570px;
+        text-align: center;
+    }
+
+    .button-two {
+        width: 200px;
+        text-align: center;
+        margin-left: 150px;
+    }
+
+}
